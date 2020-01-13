@@ -1,6 +1,6 @@
 {
-  "name": "inventivo/add-swf-support-for-media-uploader-inventivo",
-  "description": "Add swf-support to the WordPress media uploader",
+  "name": "inventivo/inventivo-popular-posts",
+  "description": "WordPress does not come with a popular posts widget out of the box. With this plugin you have a new widget to add your popular posts to your widget positions (e.g. sidebar, footer, ...).",
   "homepage": "https://www.inventivo.de",
   "license": "CC BY-ND",
   "authors": [
