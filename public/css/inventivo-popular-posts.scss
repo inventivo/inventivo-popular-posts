@@ -1,0 +1,67 @@
+@import "colors";
+
+.widget.widget_inventivo_popular_posts_widget {
+  padding: 0;
+  margin: 0;
+
+  .popular-posts-list:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+  ul.popular-posts-list {
+    li {
+      clear: both;
+      margin-bottom: 15px;
+      display: block;
+      overflow: hidden;
+
+
+
+      .post-image {
+        float: left;
+        width: 70px;
+        height: 70px;
+        img { width: 100%; height: auto; display: block;}
+      }
+
+      .meta {
+        margin-left: 85px;
+        margin-bottom: 0;
+
+        .h5 {
+          margin: 0 0 5px 0;
+          display: block;
+          color: inherit;
+          font-weight: bold;
+          margin-bottom: 5px;
+          a {
+            color: inherit;
+            text-transform: none !important;
+          }
+          a:hover {
+            color: inherit
+          }
+        }
+
+        em {
+          color: inherit;
+          font-weight: 500;
+          margin-bottom: 10px;
+          font-style: normal;
+          font-size: 12px;
+          a { display: inline !important; color: inherit;}
+          a:hover { color: inherit }
+
+          span:before, a:before {
+            content: "|";
+            padding: 0 7px 0 5px;
+          }
+        }
+      }
+    }
+  }
+}
